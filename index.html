@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-principal">
+        <div class="to-do-box">
+            <form class="to-do-list">
+                <div class="label-area">
+                    <label for="to-do" id="toDoLabel" class="to-do-label">
+                        LISTA DE TAREFAS
+                    </label>
+                </div>
+                <div class="to-do-input-area">
+                    <textarea type="text" name="to-do" id="nome-tarefa" class="to-do-input"
+                        placeholder="Digite a tarefa"></textarea>
+                </div>
+                <button onclick="adicionarTarefa()" type="submit" class="button-add">
+                    Criar
+                </button>
+            </form>
+        </div>
+        <div id="lista-tarefas" class="to-do-box add-itens container"></div>
+    </div>
+
+<footer class="footer" id="icons-contato">
+
+    <div>
+        <ul>
+            <li>
+                <i class="fab fa-github-square estilo-icon"></i>
+                <a href="https://github.com/MarcylleneMaria" target="_blank" class="links">MarcylleneMaria</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
